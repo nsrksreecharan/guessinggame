@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="guesss.css"/>
+  </head>
+  <body>
+    <div class="container-fluid topsection ">
+        <div class="row">
+            <div class="col-12 col-md-6 m-auto pt-5 pb-5 box">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-game-img.png" class="topimg"/>
+                <p class="text-center heading">Find out the right number between 1 to 100</p>
+            </div>
+        </div>
+        <div class="row bottomsection text-center">
+            <div class="col-12 col-md-6 m-auto bg-warning pt-5 pb-5">
+                <h1 class="bottomheading">Guess the Number 
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-number-img.png" class="bottomimg"/>
+                </h1>
+                <input type="text" id="value" class="h1 text-center w-50"/>
+                <br/>
+                <button onclick="check()" class="bottombutton">
+                    check
+                </button>
+                <p class="userresult" id="result"></p>
+            </div>
+           
+         <script src="guessj.js"></script>   
+        </div>
+    </div>
+  </body>
+</html>
